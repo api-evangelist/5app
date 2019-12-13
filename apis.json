@@ -1,0 +1,54 @@
+{
+    "name": "5app",
+    "description": "<p>5app is a mobile application software toolkit vendor which provides an environment for the rapid application development of robust, real-time, enterprise-scale mobile business applications with built-in workflow, geolocation reporting and full data reliability.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/5app-logo.jpeg",
+    "tags": [
+        "api not found",
+        "baas",
+        "have api",
+        "no api definition"
+    ],
+    "created": "2019-12-12",
+    "modified": "2019-12-12",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/5app\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "5app",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/5app-logo.jpeg",
+            "humanURL": "http:\/\/5app.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/5app-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/5app-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/5app.com\/blog.html"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/5app"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/5app"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/5app.com"
+        }
+    ]
+}
