@@ -1,5 +1,5 @@
 {
-    "id": "14119c79c6d8f340bc3bb0552eb4281d",
+    "id": "b9ddc715be54e2d637dc90aeb7078ce0",
     "name": "5app",
     "description": null,
     "auth": null,
@@ -8,5 +8,81 @@
     "order": [],
     "folders_order": [],
     "folders": [],
-    "requests": []
+    "requests": [
+        {
+            "id": "edf26fb6e028d0d9488b93809d38a38a",
+            "name": "Request Token",
+            "url": "https\/auth\/login",
+            "description": "Exchange username (email) and password for an Access Token.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b9ddc715be54e2d637dc90aeb7078ce0",
+            "rawModeData": ""
+        },
+        {
+            "id": "1ee0e2c253620880b1636cf87735c9bb",
+            "name": "Get Playlist",
+            "url": "https\/v2\/service\/api\/userCollections",
+            "description": "Gets the users playlist progress.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "The fields to return.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Format of response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "The number of rows.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "Filter to apply.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b9ddc715be54e2d637dc90aeb7078ce0",
+            "rawModeData": ""
+        }
+    ]
 }
