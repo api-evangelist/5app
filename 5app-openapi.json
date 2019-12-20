@@ -3,13 +3,53 @@
     "info": {
         "version": "",
         "title": "5app",
-        "description": "",
+        "description": "The 5App API can be used to run custom reports and create integrations between various services. This is a simple document outlining the core concepts, so please get in touch and we\u2019ll be happy to help you get what you need.",
         "termsOfService": ""
     },
     "servers": [
         "https"
     ],
-    "paths": [],
+    "paths": {
+        "\/auth\/login": {
+            "get": {
+                "summary": "Request Token",
+                "description": "Exchange username (email) and password for an Access Token.",
+                "operationId": "RequestToken",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v2\/service\/api\/userCollections": {
+            "get": {
+                "summary": "Get Playlist",
+                "description": "Gets the users playlist progress.",
+                "operationId": "GetPlaylist",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The fields to return."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Format of response."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "The number of rows."
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": "Filter to apply."
+                    }
+                ]
+            }
+        }
+    },
     "components": {
         "schemas": []
     }
