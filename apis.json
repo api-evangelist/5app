@@ -6,12 +6,12 @@
         "api not found",
         "baas",
         "have api",
-        "new",
         "no api definition",
-        "postman collections"
+        "postman collections",
+        "profile"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/5app\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -25,23 +25,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/5app-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/5app\/master\/5app-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/5app-postman-collection.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/5app-postman-collection.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/5app-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/5app\/master\/5app-postman-collection.json"
                 }
             ]
         }
