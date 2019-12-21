@@ -1,5 +1,5 @@
 {
-    "id": "b9ddc715be54e2d637dc90aeb7078ce0",
+    "id": "8a79daa055098914277aec1f0e870aa2",
     "name": "5app",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "edf26fb6e028d0d9488b93809d38a38a",
+            "id": "d0fd8d7f9306b5718cbc7e7d8188b670",
             "name": "Request Token",
             "url": "https\/auth\/login",
             "description": "Exchange username (email) and password for an Access Token.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b9ddc715be54e2d637dc90aeb7078ce0",
+            "collectionId": "8a79daa055098914277aec1f0e870aa2",
             "rawModeData": ""
         },
         {
-            "id": "1ee0e2c253620880b1636cf87735c9bb",
+            "id": "1bc646e5aeb2f36aa7f023a0dd42c2b2",
             "name": "Get Playlist",
             "url": "https\/v2\/service\/api\/userCollections",
             "description": "Gets the users playlist progress.",
@@ -81,7 +81,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b9ddc715be54e2d637dc90aeb7078ce0",
+            "collectionId": "8a79daa055098914277aec1f0e870aa2",
             "rawModeData": ""
         }
     ]
